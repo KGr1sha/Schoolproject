@@ -1,15 +1,8 @@
-import React, { Component, Fragment } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
 
-
-
-
-class App extends Component {
-    render() {
-        return (
-            <h1>asasdd</h1>
-        )
-    }
+export const App = () => {
+  return (
+    <div>App</div>
+  )
 }
-
-ReactDOM.render(<App />, document.getElementById('app'));
+export default App
